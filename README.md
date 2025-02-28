@@ -1,4 +1,3 @@
-```md
 # Authentication System (JWT)  
 A secure authentication system using **Node.js, Express, MongoDB, and JWT** for user registration, login, and profile access.
 
@@ -28,18 +27,15 @@ backend/
 ```
 
 ## 🛠️ Installation  
-
 ### 1️⃣ Clone the repository  
 ```sh
 git clone https://github.com/your-username/auth-jwt.git
 cd auth-jwt
 ```
-
 ### 2️⃣ Install dependencies  
 ```sh
 npm install
 ```
-
 ### 3️⃣ Configure environment variables  
 Create a `.env` file in the root folder and add:  
 ```
@@ -47,14 +43,12 @@ MONGO_URI=your_mongodb_connection_string
 JWT_SECRET=your_secret_key
 PORT=5000
 ```
-
 ### 4️⃣ Start the server  
 ```sh
 npm start
 ```
 
 ## 📌 API Endpoints  
-
 ### ✅ **User Registration**  
 **POST** `/api/auth/register`  
 ```json
@@ -64,7 +58,6 @@ npm start
   "password": "123456"
 }
 ```
-
 ### ✅ **User Login**  
 **POST** `/api/auth/login`  
 ```json
@@ -84,7 +77,6 @@ npm start
   }
 }
 ```
-
 ### ✅ **Access User Profile (Protected)**  
 **GET** `/api/auth/profile`  
 - **Headers** → `Authorization: Bearer your_jwt_token`  
@@ -98,7 +90,6 @@ npm start
   }
 }
 ```
-
 ## 🔥 Technologies Used  
 - **Node.js & Express** (Backend API)  
 - **MongoDB & Mongoose** (Database)  
@@ -106,4 +97,4 @@ npm start
 - **Bcrypt.js** (Password Hashing)  
 
 ## ✅ License  
-This project is **open-source** under the MIT License.  
+This project is **open-source** under the MIT License.
